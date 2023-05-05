@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <!-- <li><a href="#about" class="nav-link">About</a></li> -->
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a class="nav-link modalbtn">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="home child" id="home">
+            <div class="info">
+                <h1>Kenneth Ash</h1>
+                <h4>FullStack Developer</h4>
+                <br>
+                <p>Looking Forward to Working Together</p>
+                <button class="modalbtn">Contact</button>
+
+            </div>
+            <div>
+                <img id="hero-img" src="">
+            </div>
+
+        </section>
+        <section class="skills child" id="skills">
+
+        </section>
+        <section class="portfolio child scroll" id="portfolio">
+            <ul class="porttabs">
+                <li><a href="#projects" onclick="openpg('projects')" class="tabs active">Projects</a></li>
+                <li><a href="#challenges" onclick="openpg('challenges')" class="tabs">Challenges</a></li>
+            </ul>
+            <div class="poop " id="projects">
+                <a href="https://kjash89.github.io/CRUD-webdev/">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/Img/">
+                            </div>
+                            <div class="card-title">
+                                <a href="#" class="toggle-info btn">
+                                    <span class="left"></span>
+                                    <span class="right"></span>
+                                </a>
+                                <h2>Workload Management Tool
+                                    <small>(In progress)</small>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kjash89.github.io/Dylans-website/">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/Img/">
+                            </div>
+                            <div class="card-title">
+                                <a href="#" class="toggle-info btn">
+                                    <span class="left"></span>
+                                    <span class="right"></span>
+                                </a>
+                                <h2>Simple Portfolio Site
+                                    <br />
+                                    <small>(basic using css)
+                                    </small>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/Img/">
+                        </div>
+                        <div class="card-title">
+                            <a href="#" class="toggle-info btn">
+                                <span class="left"></span>
+                                <span class="right"></span>
+                            </a>
+                            <h2>Card Title holder
+                                <small>this is a project
+                                </small>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://kjash89.github.io/odin-recipies/index.html">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/Img/">
+                            </div>
+                            <div class="card-title">
+                                <a href="#" class="toggle-info btn">
+                                    <span class="left"></span>
+                                    <span class="right"></span>
+                                </a>
+                                <h2>Recipie Site
+                                    <br />
+                                    <small>(Work in Progress)
+                                    </small>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="poop" id="challenges">
+                <a href="https://kjash89.github.io/Js-Calc/">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="/Img/JScalc.png">
+                            </div>
+                            <div class="card-title">
+                                <a href="#" class="toggle-info btn">
+                                    <span class="left"></span>
+                                    <span class="right"></span>
+                                </a>
+                                <h2>Javascript Calculator
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/Img/">
+                        </div>
+                        <div class="card-title">
+                            <a href="#" class="toggle-info btn">
+                                <span class="left"></span>
+                                <span class="right"></span>
+                            </a>
+                            <h2>Card Title holder
+                                <small>this is a challenge
+                                </small>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/Img/">
+                        </div>
+                        <div class="card-title">
+                            <a href="#" class="toggle-info btn">
+                                <span class="left"></span>
+                                <span class="right"></span>
+                            </a>
+                            <h2>Card Title holder
+                                <small>this is a challenge
+                                </small>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="/Img/">
+                        </div>
+                        <div class="card-title">
+                            <a href="#" class="toggle-info btn">
+                                <span class="left"></span>
+                                <span class="right"></span>
+                            </a>
+                            <h2>Card Title holder
+                                <small>this is a challenge
+                                </small>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <h2>Poop</h2>
+        </div>
+    </div>
+
+    <footer class="footer" id="footer">
+
+    </footer>
+    <script src="Js/script.js"></script>
+    <script src="Js/modal/moda.js"></script>
+</body>
+
+</html>
